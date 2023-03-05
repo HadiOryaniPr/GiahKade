@@ -1,0 +1,76 @@
+@import "./mixins";
+$primary-color: #4a7948;
+* {
+    font-family: Vazirmatn, sans-serif;
+}
+
+::selection {
+    background-color: $primary-color;
+    color: #fff;
+}
+
+.fa-leaf {
+    color: #30742d !important;
+    transition: all 0.3s ease-in !important;
+    &:hover {
+        color: $primary-color !important;
+    }
+}
+
+.signin {
+    @include leaf;
+}
+
+.signup {
+    @include leaf;
+}
+
+.centerbtn {
+    background-color: $primary-color !important;
+}
+
+.shoppingBtn {
+    background-color: $primary-color !important;
+    color: #fff !important;
+}
+
+.container-elementor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .elementor-img {
+        padding: 0rem 1rem;
+    }
+    .col-1-container,
+    .col-2-container {
+        .card {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.aboutBuy {
+    text-align: justify;
+}
+
+.qa-title {
+    @include leaf;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.informationaboutbuy {
+    @include leaf;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.itemsUsePlantTitle {
+    @include leaf;
+}
+
+.advantageUsePlantTitle {
+    @include leaf;
+}

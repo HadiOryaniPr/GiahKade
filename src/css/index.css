@@ -1,0 +1,98 @@
+* {
+  font-family: Vazirmatn, sans-serif;
+}
+
+::selection {
+  background-color: #4a7948;
+  color: #fff;
+}
+
+.fa-leaf {
+  color: #30742d !important;
+  transition: all 0.3s ease-in !important;
+}
+.fa-leaf:hover {
+  color: #4a7948 !important;
+}
+
+.signin {
+  background-color: #4a7948;
+  color: #fff !important;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem 1rem !important;
+}
+
+.signup {
+  background-color: #4a7948;
+  color: #fff !important;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem 1rem !important;
+}
+
+.centerbtn {
+  background-color: #4a7948 !important;
+}
+
+.shoppingBtn {
+  background-color: #4a7948 !important;
+  color: #fff !important;
+}
+
+.container-elementor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container-elementor .elementor-img {
+  padding: 0rem 1rem;
+}
+.container-elementor .col-1-container .card,
+.container-elementor .col-2-container .card {
+  margin-bottom: 1rem;
+}
+
+.aboutBuy {
+  text-align: justify;
+}
+
+.qa-title {
+  background-color: #4a7948;
+  color: #fff !important;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem 1rem !important;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.informationaboutbuy {
+  background-color: #4a7948;
+  color: #fff !important;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem 1rem !important;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.itemsUsePlantTitle {
+  background-color: #4a7948;
+  color: #fff !important;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem 1rem !important;
+}
+
+.advantageUsePlantTitle {
+  background-color: #4a7948;
+  color: #fff !important;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem 1rem !important;
+}
+
+/*# sourceMappingURL=index.css.map */
